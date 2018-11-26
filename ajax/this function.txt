@@ -1,0 +1,9 @@
+<a id="deleteid" data-amarvalue="hello" href="#">Delete</a>
+<script>
+$(document).ready(function()){
+	$("a#deleteid").on("click",function(){
+		var myahrefvalue = $ (this).data("amarvalue");
+		alert(myahrefvalue);
+})
+}
+</script>

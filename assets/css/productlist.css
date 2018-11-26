@@ -1,0 +1,37 @@
+	.swiper-container.jishan-slide {
+		position: absolute;
+		bottom: 0;
+	}
+    .swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .productlist_img {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+    }
+.swiper-container.jishan-slide {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0px;
+    zoom: 2.5;
+    width: 100%;
+    margin-bottom: 20px;
+    z-index: 0;
+}
+
+.swiper-container.jishan-slide .swiper-slide p{
+    background-color: #464646;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    font-size: 35px;
+    text-align: center;
+}

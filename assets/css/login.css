@@ -1,0 +1,123 @@
+*{margin:0;padding:0;}
+.login-section{
+	background-color:red;
+	background-image: -webkit-linear-gradient(20deg, #013A6B 40%, #004E95 60%);
+    min-height: 500px;
+}	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	font-size:-webkit-xxx-large;
+}
+.login-top {
+    height: 455.3px;
+	position: relative;
+	display: inline-block;
+}
+.login-top .logo {
+    font-size: 100px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px 0px;
+}
+.login-top .profil {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+	background-color: #000;
+    border-radius: 50%;
+	position:relative;
+}
+
+
+.profile_img {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    background-color: #013a6b;
+    border-radius: 50%;
+    display: block;
+    color: #fff;
+    transition: background .3s;
+	background-image: url(../imgs/profile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.profile_img_up {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 1;
+    width:0;
+    height: 100%;
+    opacity: 0;
+}
+
+
+
+
+
+.login-middle {
+    height: 600px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+	padding-top: 50px;
+}
+.login-middle .phone, .password, .login {
+    height: 115px;
+    margin: 20px auto;
+}
+
+.login-middle input {
+    font-size: 45px;
+    width: 90%;
+    height: 100%;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 20px;
+	background-color: #fff;
+    color: #000;
+}
+
+.input_red{
+	background-color:#222 !important;
+	border:5px solid red;
+}
+
+.login input {
+    width: 50%;
+}
+.login-bottom {
+    height: 760px;
+    background-color: #dddddd42;
+    box-shadow: 0px -3px 25px #444444;
+    border-radius: 100px 100px 0px 0px;
+}
+.login-bottom a {
+    font-size: 50px;
+    line-height: 75px;
+    width: 50%;
+    height: 75px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.signup-btn p {
+    font-size: 45px;
+    text-align: center;
+    padding: 40px 0px;
+    color: #bbb;
+
+}

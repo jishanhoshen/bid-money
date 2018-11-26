@@ -1,0 +1,205 @@
+*{margin: 0;padding: 0;font-size: -webkit-xxx-large;}
+.header {
+    height: 120px;
+    background-color: red;
+}
+.time-section {
+    background-color: #2196F3;
+    height: 200px;
+}
+.time-section .times {
+    background-color: azure;
+    height: 100%;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+.time-section .times h6 {
+    font-size: 60px;
+}
+.time-section .times h3 {
+    font-size: 70px;
+}
+.content-section {
+    position: relative;
+    height: 80%;
+}
+.productbox_on{
+    margin: 50px;
+    box-shadow: 25px 25px 35px #ddd;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.productbox_off{
+    margin: 0;
+    width: 70%;
+    box-shadow: 0px 0px;
+}
+
+.photo-section {
+    height: 500px;
+    text-align: center;
+}
+.photo-section img {
+    height: 500px;
+}
+.descrip-section {
+    background-color: brown;
+    padding: 25px;
+}
+.descrip-section h2 {
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.descrip-section span p {
+    font-size: 60px;
+}
+.descrip-section p {
+    font-size: 40px;
+}
+.bidbtn_on{
+    display: block;
+}
+.bidbtn_off{
+    display: none;
+}
+.bidbtn_on p {
+    border: 1px solid #ddd;
+    display: inline-block;
+    font-size: 40px;
+    padding: 20px;
+    margin: 40px;
+}
+.bidbtn_on .bid_now{
+    text-decoration: none;
+    background-color: darkgreen;
+    padding: 20px;
+    color: white;
+}
+.bidbtn_on form{
+	display:inline-block;
+}
+.confbidbtn_off{
+    padding: 40px;
+    display: none;
+}
+.confbidbtn_on{
+	display:block;
+	padding: 25px;
+}
+.confbidbtn_on p {
+    font-size: 40px;
+    padding: 10px 0px;
+}
+
+.confbidbtn_on .bidinput {
+    padding-left: 15px;
+    background-color: #f7f7f7;
+    font-size: 50px;
+    height: 100px;
+}
+.confbidbtn_on .conform_Bid {
+    text-decoration: none;
+    background: #00670d;
+    color: #f9f9f9;
+    padding: 30px 50px;
+    margin: 25px 15px 25px 35%;
+    display: inline-block;
+}
+.editbtn-section-on{
+		display:block;
+}
+.editbtn-section-off{
+		display:none;
+}
+.editbtn .echobid {
+    height: 100px;
+    background-color: #ddd;
+    font-size: 50px;
+    padding: 0px 15px;
+    line-height: 100px;
+}
+.editbtn {
+    display:block;
+	padding: 25px;
+}
+.edit_btn{
+	text-decoration: none;
+    background: #00670d;
+    color: #f9f9f9;
+    padding: 30px 50px;
+    margin: 25px 15px 25px 35%;
+    display: inline-block;
+}
+
+.conformupdate{
+	display:none;
+	padding: 25px;
+}
+.conformupdate .inputbidupdate{
+    padding-left: 15px;
+    background-color: #f7f7f7;
+    font-size: 50px;
+    height: 100px;
+}
+.conformupdate .conform_edit{
+	text-decoration: none;
+    background: #00670d;
+    color: #f9f9f9;
+    padding: 30px 50px;
+    margin: 25px 15px 25px 35%;
+    display: inline-block;
+}
+
+.bider_off{
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 70%;
+    right: 0;
+    bottom: 0;
+    overflow: scroll;
+    display: none;
+}
+.bider_on{
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 70%;
+    right: 0;
+    bottom: 0;
+    overflow: scroll;
+    display: block;
+}
+.bider_on .single-bider {
+    background-color: #ff7070;
+    height: 250px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+.single-bider img {
+    background-color: red;
+    height: 150px;
+    width: 150;
+    border-radius: 50%;
+    padding: 5px;
+}
+.single-bider .user_bid {
+    padding: 12px 0px;
+}
+.foot-section {
+    background-color: #ddd;
+    height: 800px;
+}
+.foot {
+    height: 800px;
+    background-color: #ddd;
+}
+
+
+/* jsdghkjash*/

@@ -1,0 +1,15 @@
+.footer-section {
+	background-image: -webkit-linear-gradient(85deg, #013d71 30%, #0069ca 70%);
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.footer-section .balance-btn {
+    font-size: 80px;
+    text-align: center;
+    padding: 14.5px;
+	color:#000f1d;
+}

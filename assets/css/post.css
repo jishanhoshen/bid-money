@@ -1,0 +1,14 @@
+.post-section {
+    position: absolute;
+    top: 520px;
+    left: 2px;
+    right: 2px;
+    bottom: 120px;
+}
+.post-box {
+    width: 98%;
+    height: 370px;
+    background-color: darkred;
+    float: left;
+    margin: 1%;
+}

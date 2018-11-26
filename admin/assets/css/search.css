@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    height: 60px;
+    background-color: green;
+}
+.contentarea {
+    height: 400px;
+    background-color: gray;
+}
+.contentarea .leftside {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: #ddd;
+}
+ul{
+	list-style: none;
+}
+li {
+    border-bottom: 1px solid #909090;
+}
+li label {
+    width: 33%;
+    display: inline-block;
+    padding-left: 4%;
+}
+li input {
+    width: 60%;
+    font-size: 16px;
+    padding: 4px 0px;
+    margin: 0px;
+    height: 20px;
+}
+li input[type="submit"] {
+    height: 30px;
+    margin-left: 60%;
+    width: 33%;
+}
+.contentarea .middleside {
+    float: left;
+    width: 60%;
+    height: 100%;
+    background-color: #aba3b7;
+}
+.contentarea .rightside {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: #4dbba2;
+}
+.footer {
+    height: 60px;
+    background-color: #202020;
+}

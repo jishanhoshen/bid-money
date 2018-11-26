@@ -1,0 +1,120 @@
+.menubar-section {
+    background-color: #1fd2a7;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -740px;
+    width: 735px;
+    z-index: 3;
+	transition: .2s;
+}
+.menubar-top {
+    height: 400px;
+}
+.menubar-top hr {
+    height: 3px;
+    background-color: #0a0a0a;
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+}
+.menubar-bottom {
+    position: absolute;
+    top: 400px;
+    bottom: 0;
+    width: 735px;
+    overflow: scroll;
+}
+.com-logo {
+    height: 100px;
+	text-align:center;
+}
+.com-logo img {
+    height: 170px;
+    margin: 15px 0px;
+}
+.menu-profile {
+    height: 200px;
+}
+.user-name {
+    width: 70%;
+    float: left;
+    height: 130px;
+    line-height: 130px;
+    font-size: 100px;
+}
+.user-profle {
+    width: 30%;
+    float: left;
+    height: 100%;
+    text-align: center;
+}
+.user-profle img {
+    height: 120px;
+    text-align: center;
+    margin-top: 50px;
+}
+.menu-userid {
+    width: 70%;
+    float: left;
+    font-size: 100px;
+}
+.menu-userid p {
+    font-size: 40px;
+    padding: 10px 0px;
+}
+.menubar-bottom ul {
+    list-style: none;
+    text-align: left;
+}
+.menubar-bottom ul li {
+}
+.menubar-bottom ul li.logout {
+    padding: 100px 0px;
+}
+.menubar-bottom ul li.contact {
+    height: 200px;
+}
+.menubar-bottom ul li.contact .contact_left {
+    height: 100%;
+    width: 20%;
+    float: left;
+    line-height: 200px;
+}
+.menubar-bottom ul li.contact .contact_left svg {
+    font-size: 100px;
+    padding: 30px 25px;
+}
+.menubar-bottom ul li.contact .contact_right {
+    height: 100%;
+    width: 80%;
+    float: left;
+    font-size: 50px;
+    line-height: 80px;
+    clip: both;
+}
+.menubar-bottom ul li.contact .contact_right .bold{
+    font-weight: 700;
+}
+.menubar-bottom ul li a {
+    text-decoration: none;
+    font-size: 50px;
+    padding: 30px 0px;
+    display: inline-block;
+    width: 735px;
+    color: #fff;
+}
+.menubar-bottom ul li a svg {
+    padding: 0px 70px;
+}
+.menuback {
+    background-color: #dedede7a;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 1000px;
+    right: 0;
+    z-index: 3;
+    transition: .2s;
+	opacity: 0;
+}

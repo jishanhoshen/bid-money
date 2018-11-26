@@ -1,0 +1,156 @@
+section.message_header_section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    background-image: -webkit-linear-gradient(85deg, #013d71 30%, #0069ca 70%);
+    z-index: 11;
+}
+section.message_header_section svg {
+    font-size: 80px;
+    padding: 20px 60px;
+}
+a.back-btn {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+}
+button.delete-btn {
+    background-color: #fff0;
+    border: 0px;
+    width: 100%;
+    font-size: 60px;
+    text-align: center;
+    margin: 15px 0px;
+    line-height: 110px;
+    box-shadow: 0px 0px 8px #000;
+}
+button.delete-btn svg {
+    float: right;
+}
+button.back-btn:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+.message_menu_btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.message_menu {
+    position: absolute;
+    top: 10px;
+    right: 140px;
+    height: 500px;
+    width: 500px;
+    background-color: #FFF;
+    border: 1px solid #000;
+    border-radius: 20px;
+    text-align: right;
+}
+
+
+.open-message {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 30px #ababab;
+    transition: 0.4s;
+    overflow: scroll;
+    margin-top: 120px;
+}
+.congratulation {
+    background-color: #ffffff;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.congratulation p {
+    position: absolute;
+    top: 340px;
+    left: 60px;
+    font-size: 50px;
+    font-family: cursive;
+}
+.open-message .top {
+    height: 400px;
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: contain;
+    margin-bottom: 20px;
+}
+.open-message .bottom {
+    padding: 30px;
+    background-color: #fd644e;
+}
+.bottom div {
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+}
+.bottom div label {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.bottom div p {
+    display: inline-block;
+    font-size: 60px;
+    font-weight: 800;
+    padding: 20px;
+    text-align: right;
+    width: 95%;
+}
+.product-slod {
+    height: 300px;
+    width: 400px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-bottom: 0px !important;
+}
+.comp-sign {
+    display: inline-block;
+    font-size: 80px;
+    font-family: 'Meie Script', cursive;
+    border-bottom: 0px !important;
+    margin: 0 !important;
+    transform: rotate(-20deg);
+    padding-left: 540px;
+    font-weight: 600;
+    color: #000035;
+}
+.dropdown-content {
+  display: none;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*transaction*/
+.transaction{
+	width: 85%;
+    margin: auto;
+    margin-top: 240px;
+}
+.transaction_title {
+    font-size: 55px;
+    font-weight: 800;
+    text-align: center;
+    padding: 40px;
+    color: #fd644e;
+    text-transform: capitalize;
+}
+.transaction_top{
+	text-align:center;
+}
+.transaction_top svg {
+    font-size: 170px;
+    color: #fd644e;
+    text-align: center;
+    height: 300px;
+}

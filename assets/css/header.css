@@ -1,0 +1,42 @@
+*{margin:0;padding:0;}
+.header-section {
+	background-image: -webkit-linear-gradient(85deg, #013d71 30%, #0069ca 70%);
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header-section .ico {
+    width: 14.28%;
+    float: left;
+    margin: 25px 0px;
+    text-align: center;
+    color: #fff;
+}
+.header-section .ico a {
+    color: #fff;
+}
+.serch-icon.ico {
+    width: 42%;
+    margin: 0px;
+}   
+.header-section .ico svg{
+    font-size: 70px;
+}
+.serch-icon.ico svg {
+    font-size: 50px;
+    margin: 10px 0px;
+}
+.com-icon.ico {
+    height: 100%;
+    margin: 0;
+}
+.com-icon.ico .top-bar-profile {
+    height: 120px;
+}
+.com-icon.ico .top-bar-profile img {
+    height: 100px;
+    margin: 10px;
+}

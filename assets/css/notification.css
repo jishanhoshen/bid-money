@@ -1,0 +1,80 @@
+/*start empty style*/
+.empty_notice {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f3f3f3;
+}
+.empty_notice h2 {
+    position: relative;
+    top: 45%;
+    left: 0;
+    right: 0;
+    height: 100px;
+    text-align: center;
+    color: #ababab;
+}
+/*end empty style*/
+/*start notification style*/
+.notification-section {
+    position: fixed;
+    top: 120px;
+    bottom: 120px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    font-size: -webkit-xxx-large;
+}
+.notice-box {
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    background-color: #fff;
+    overflow: scroll;
+}
+.single-notice {
+    position: relative;
+    left: 0;
+    right: 0;
+    background-color: #4e4e4e66;
+    box-shadow: 0px 0px 30px #ababab;
+    border-radius: 10px;
+    transition: 0.4s;
+    overflow: scroll;
+    height: 170px;
+    margin: 20px 0px;
+    padding: 10px;
+}
+.single-notice .logo {
+    position: absolute;
+    background-color: red;
+    height: 145px;
+    width: 145px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.single-notice .notic-sub {
+    position: absolute;
+    height: 80px;
+    line-height: 80px;
+    width: 500px;
+    left: 200px;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.single-notice .date {
+    position: absolute;
+    height: 80px;
+    width: 500px;
+    top: 110px;
+    right: 20px;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+/*end notification style*/

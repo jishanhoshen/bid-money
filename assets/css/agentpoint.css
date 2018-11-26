@@ -1,0 +1,46 @@
+section.agent_section {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.agents {
+    position: absolute;
+    top: 130px;
+    bottom: 120px;
+    left: 29px;
+    right: 30px;
+    background-color: rgba(0, 0, 0, 0.06);
+	overflow: scroll;
+}
+.single_agent {
+    height: 600px;
+    width: 80%;
+    padding: 10px;
+    margin: 20px auto;
+}
+.single_agent .top {
+    background-color: #ddd;
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+.single_agent .bottom {
+    background-color: #777;
+    height: 100%;
+    width: 60%;
+    float: left;
+}
+.single_agent .top img {
+    max-width: 100%;
+	margin: 50% 0px;
+}
+.single_agent .bottom h2 {
+    font-size: 60px;
+    padding: 60px 0px;
+}
+.single_agent .bottom p {
+    font-size: 40px;
+    padding: 20px;
+}
